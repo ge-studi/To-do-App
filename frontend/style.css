@@ -1,0 +1,66 @@
+/* Style the container */
+.container{
+    max-width: 400px;
+    margin:50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/*Style the heading*/
+h1{
+    color: #333;
+}
+
+/* Style the input field */
+#taskInput{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the add task button */
+#addTaskButton{
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addTaskButton:hover{
+    background-color: #218838;
+}
+
+/* Style the task list */
+#taskList{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#taskList li{
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the delete button */
+#taskList button{
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#taskList button:hover{
+    background-color: #c82333;
+}
